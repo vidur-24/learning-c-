@@ -1,0 +1,69 @@
+DATA TYPES: 
+
+    - Primitive
+        1. integer - 4 bytes
+            i. signed 
+            ii. unsigned
+            iii. long - 8 bytes
+            iv. short - 2 bytes
+        2. float
+            i. float - 4 bytes (7 decimal)
+            ii. double - 8 bytes (15 decimal)
+        3. character - 1 bytes
+        4. boolean - 1 bytes
+    - Derived
+        1. function
+        2. array
+        3. pointers
+        4. reference
+    - User-defined
+        1. class
+        2. structure
+        3. union
+        4. enum
+
+BASIC C++ CODE:
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    //code
+    cout<<"Hello";
+    return 0;
+}
+
+        or
+
+#include <iostream>
+
+int main(){
+    //code
+    std::cout<<"Hello";
+    return 0;
+}
+
+CONDITIONAL AND LOOP STATEMENTS:
+
+
+if(cond1){
+    //code1
+}
+else if(cond2){
+    //code2
+}
+else{
+    //code3
+}
+
+for(initialistion; condition; updation){
+    //body
+}
+
+while(cond){
+    //body
+}
+
+do{
+    //body
+}while(cond);
