@@ -94,3 +94,9 @@ other operators:
     & = reference operator, returns the address of variable
     * = pointer to a variable
 
+PRE-PROCESSOR DIRECTIVES:
+
+<math.h> = pow(number, power)
+<cmath> = sqrt(number)
+
+    
