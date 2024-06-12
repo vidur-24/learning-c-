@@ -67,3 +67,30 @@ while(cond){
 do{
     //body
 }while(cond);
+
+switch(var){
+    case //constant or expression:
+        //code
+        break;
+    default: //if no value in case matches then default
+}
+
+//in switch cases if we dont add breaks then after a case gets matched all the statements of the case after that case gets executed
+
+OPERATORS: (same as c lang)
+
+left shift = a<<n ----> a*(2**n)
+    ex: 4<<1 = 0100<<1 = 1000
+right shift = a>>n ----> a/(2**n)
+    ex: 4>>1 = 0100>>1 = 0010
+
+other operators:
+
+    sizeof() = returns the size of variable
+    condition?X:Y = ternary operator, returns value of X if cond is true else Y
+    cast = convert one data type to another
+    comma(,) = causes a sequence of operations to be performed
+        note: if a=1,2,3 then the last value will be assigned to a i.e, a=3
+    & = reference operator, returns the address of variable
+    * = pointer to a variable
+
