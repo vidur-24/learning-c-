@@ -1,28 +1,3 @@
-CONDITIONAL AND LOOP STATEMENTS:
-
-
-if(cond1){
-    //code1
-}
-else if(cond2){
-    //code2
-}
-else{
-    //code3
-}
-
-for(initialistion; condition; updation){
-    //body
-}
-
-while(cond){
-    //body
-}
-
-do{
-    //body
-}while(cond);
-
 switch(var){
     case //constant or expression:
         //code
