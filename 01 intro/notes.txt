@@ -1,0 +1,34 @@
+HOW C++ FILES ARE EXECUTED?
+
+    C++ is a compiled language, meaning it needs to be translated into a form the computer can understand before it can run. This translation process happens in multiple steps:
+
+    1. Preprocessing: The preprocessor handles things like removing comments and including header files.  These headers provide definitions and functions for the code to use.
+
+    2. Compiling: The compiler takes the preprocessed code and translates it into assembly language, which is a low-level language specific to the computer's architecture.
+
+    3. Linking (optional): In larger programs, the compiled code (object code) might be spread across multiple files. The linker combines these object files and any necessary libraries (pre-written code) into a single executable file.
+
+    4. Loading and Execution: The executable file is loaded into memory by the operating system. The CPU then fetches and executes the instructions in the program one at a time.
+
+
+BASIC C++ CODE:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        //code
+        cout<<"Hello";
+        return 0;
+    }
+
+            or
+
+    #include <iostream>
+
+    int main(){
+        //code
+        std::cout<<"Hello";
+        return 0;
+    }
