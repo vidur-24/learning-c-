@@ -27,3 +27,14 @@ int main()
     }
     
 }
+
+/*
+switch(var){
+    case //constant or expression:
+        //code
+        break;
+    default: //if no value in case matches then default
+}
+
+//in switch cases if we dont add breaks then after a case gets matched all the statements of the case after that case gets executed
+*/
