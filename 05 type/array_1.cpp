@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     int example[5]; // we ve allocated space for 5 int 
-    // example, here, is an int pointer to that bblock of memory that contains that 5 int
+    // example, here, is an int pointer to that block of memory that contains that 5 int
     int* ptr = example;
     
     /*

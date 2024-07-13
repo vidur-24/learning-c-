@@ -1,0 +1,1 @@
+- [String Class Reference](https://cplusplus.com/reference/string/string/)
