@@ -38,7 +38,7 @@ namespace mem
     }
 
     template<typename POINTER>
-    void MemView(POINTER pointer, int length = 10, int lines = 1)
+    void MemView(POINTER pointer, int length = 20, int lines = 1) // change this 'int length' to specify the number of bytes of memory you want to print
     {
         unsigned char* ptr= (unsigned char*)pointer;
         for(int x = 0; x < lines; x++)
