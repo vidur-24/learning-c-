@@ -16,7 +16,7 @@ int main()
 {
     Example value = B;
 
-    if(value == B)
+    if(value == 6)
     {
         cout << B << endl;
     }

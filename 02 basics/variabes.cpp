@@ -1,4 +1,4 @@
-// Just like C variables get the memory allocated by their data type
+// Just like C, variables get the memory allocated by their data type
 
 #include <iostream>
 using namespace std;

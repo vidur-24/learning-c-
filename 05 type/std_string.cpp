@@ -42,6 +42,8 @@ int main()
         - strlen(s) to get the length of the string
         - strcpy(dest, src) to copy the string
     */
+    
+    //concatenation
     name += "Hello"; //we are actually adding a pointer to the name which is a string (+= is overload operator in string class)
     // string name = string ("Cherno") + "Hello"; //this is same as above
     // "Cherno" + "Hello" //will give error becuz we cant add 2 array/pointer together
